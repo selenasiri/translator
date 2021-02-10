@@ -20,16 +20,26 @@ function App() {
         <button onClick={()=> handleClick('ko')}>
           Korean
         </button>
-        <button onClick={()=> handleClick('chi')}>
+        <button onClick={()=> handleClick('zh')}>
           Chinese
+        </button>
+        <button onClick={()=> handleClick('es')}>
+          Spanish
+        </button>
+        <button onClick={()=> handleClick('de')}>
+          German
+        </button>
+        <button onClick={()=> handleClick('fr')}>
+          French
+        </button>
+        <button onClick={()=> handleClick('it')}>
+          Italian
         </button>
       </nav>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>{t('Thanks.1')} </p>
         <p>{t('Why.1')} </p>
-        
-
       </header>
     </div>
   );
