@@ -26,8 +26,10 @@ function App() {
       </nav>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>{t('my translated text')} </p>
+        <p>{t('Thanks.1')} </p>
+        <p>{t('Why.1')} </p>
         
+
       </header>
     </div>
   );
